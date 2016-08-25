@@ -27,10 +27,6 @@ public class PostController {
 	@Autowired 
 	MongoTemplate template;
     
-    @RequestMapping("/")
-    public String index() {
-        return "<p>Welcome to Goshare Comment!</p>";
-    }
     
     /**
      * @param p
