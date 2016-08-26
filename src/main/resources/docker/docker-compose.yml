@@ -1,0 +1,14 @@
+poi:
+ image: poi
+ ports:
+  - "8080:8080"
+ links:
+  - mongodb
+comment:
+ image: comment
+ ports:
+  - "8080:8080"
+ links:
+  - mongodb
+mongodb:
+ image: mongo

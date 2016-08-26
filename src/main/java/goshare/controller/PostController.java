@@ -19,6 +19,7 @@ import goshare.repository.PostRepository;
  */
 
 @RestController
+@RequestMapping("/")
 public class PostController {
 	
 	@Autowired
